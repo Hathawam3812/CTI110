@@ -17,7 +17,7 @@ def main():
 # Float input necessary to calculate decimal integers less than one
     age = float(input('Enter Age (Limit: 2 decimal places): '))
 # Run a comparison for age input
-# Start with lowest, then compare oldest on down,
+# Start with infant, then compare oldest on down,
 # Otherwise it will not get past Child age
     if age <= Infant:
         print ('Infant')
